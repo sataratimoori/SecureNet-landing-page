@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", Arial, Helvetica;
+    background-color: #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Utilites */
+
+.bg-one{
+    background-color: #14B8A6;
+}
+
+.text-one{
+    color: #14B8A6;
+}
+
+
+/* HEADER */
+
+.bg-one{
+    background-color: #222222;
+    color: #fff !important;
+}
+
+.bg-one a{
+    color: #fff !important;
+}
+
+.nav-link:hover, .nav-link.active{
+    background-color: #14B8A6 !important;
+}
+
+/* HOME */
+
+/* ABOUT */
+
+/* PRICING */
+
+/* SERVICES */
+
+/* CONTACT */
+
+/* BLOG */
+
+/* FOOTER */
+
+
