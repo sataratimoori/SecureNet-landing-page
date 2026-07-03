@@ -27,7 +27,7 @@ a {
 }
 
 .text-two{
-    color: #9CA3AF;
+    color: #d7d9de;
 }
 
 .bg-two{
@@ -69,7 +69,6 @@ a {
     background-size: cover;
     background-attachment: fixed;
     margin-top: 56px;
-    height: 90vh;
 }
 
 .font-size{
@@ -96,6 +95,34 @@ a {
 }
 
 /* PRICING */
+
+.pricing{
+    background:url('../img/bg-2.jpg') no-repeat;
+    background-position: 0% 30%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.table{
+    width: 100%;
+}
+
+.table-button-hover:hover{
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+
+.featured-table {
+    transform: translateY(-5px);
+}
+
+.table{
+    --bs-table-bg: #2B2B2B;
+    --bs-table-striped-bg: #222222;
+    --bs-table-color: #fff;
+    --bs-table-striped-color: #fff;
+}
 
 /* SERVICES */
 
