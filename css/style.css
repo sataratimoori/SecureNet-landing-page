@@ -27,7 +27,7 @@ a {
 }
 
 .text-two{
-    color: #d7d9de;
+    color: #b9bfce;
 }
 
 .bg-two{
@@ -62,7 +62,7 @@ a {
 /* HEADER */
 
 
-.bg-two a{
+.bg-four a{
     color: #fff !important;
 }
 
@@ -246,6 +246,30 @@ a {
 /* BLOG */
 
 /* FOOTER */
+
+.form-control:focus{
+    background-color: #2B2B2B;
+}
+
+.form-control::placeholder{
+    color: #fff;
+}
+
+.footer-link{
+    color: #b9bfce !important;
+}
+
+.footer-link:hover{
+    color: #fff !important;
+}
+
+.social-hover{
+    transition: .4s;
+}
+
+.social-hover:hover{
+    background-color: #000;
+}
 
 
 @media (max-width: 575.98px){
