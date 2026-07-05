@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body data-bs-spy="scroll">
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top bg-two px-4">
         <div class="container-fluid">
@@ -397,7 +397,7 @@
                 <div class="row py-4 align-items-center justify-content-center text-white">
                     <div class="col-12 text-center">
                         <!-- Slider main container -->
-                            <div class="swiper">
+                            <div class="swiper testimonialSwiper">
                                 <!-- Additional required wrapper -->
                                 <div class="swiper-wrapper">
                                     <!-- Slides -->
@@ -543,8 +543,155 @@
                 </div>
             </div>
         </section>
+        <!-- Testimonials-2 -->
+        <section class="testimonials-2 bg-two">
+            <div class="container p-5">
+                <div class="row g-5 align-items-center justify-content-center text-white">
+                    <div class="col-12">
+                        <div class="text-center pt-4">
+                            <h1 class="hr-bottom text-uppercase fs-1 fw-bold pb-3">What Our Clients Say</h1>
+                            <p class="text-two  mx-auto mt-4 text-center">Discover why businesses trust Secure-Net to protect their networks, data, and digital infrastructure from evolving cyber threats.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="d-block d-lg-flex align-items-center justify-content-between">
+                            <div class="text-center text-lg-start">
+                                <img src="img/person-1.jpg" alt="" class="rounded-circle image-margin-2">
+                            </div>
+                            <div class="text-strat ps-3 ps-lg-5 pt-5 pt-lg-3">
+                                <div>
+                                    <i class="bi bi-star-fill icon-yellow"></i>
+                                    <i class="bi bi-star-fill icon-yellow"></i>
+                                    <i class="bi bi-star-fill icon-yellow"></i>
+                                    <i class="bi bi-star-fill icon-yellow"></i>
+                                    <i class="bi bi-star-fill icon-yellow"></i>
+                                </div>
+                                <p class="text-two my-2">"Secure-Net has strengthened our cybersecurity with fast response times and reliable protection. We feel confident knowing our systems are monitored 24/7."</p>
+                                <p class="text-white fw-bold">James Carter</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="d-block d-lg-flex align-items-center justify-content-between">
+                            <div class="text-center text-lg-start">
+                                <img src="img/person-2.jpg" alt="" class="rounded-circle image-margin-2">
+                            </div>
+                            <div class="text-strat ps-3 ps-lg-5 pt-5 pt-lg-3">
+                                <div>
+                                    <i class="bi bi-star-fill icon-yellow"></i>
+                                    <i class="bi bi-star-fill icon-yellow"></i>
+                                    <i class="bi bi-star-fill icon-yellow"></i>
+                                    <i class="bi bi-star-fill icon-yellow"></i>
+                                    <i class="bi bi-star-fill icon-yellow"></i>
+                                </div>
+                                <p class="text-two my-2">"The team at Secure-Net helped us secure our network and prevent potential cyber attacks. Their service is professional and dependable."</p>
+                                <p class="text-white fw-bold">Sophia Mitchell</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="d-block d-lg-flex align-items-center justify-content-between">
+                            <div class="text-center text-lg-start">
+                                <img src="img/person-4.jpg" alt="" class="rounded-circle image-margin-2">
+                            </div>
+                            <div class="text-strat ps-3 ps-lg-5 pt-5 pt-lg-3">
+                                <div>
+                                    <i class="bi bi-star-fill icon-yellow"></i>
+                                    <i class="bi bi-star-fill icon-yellow"></i>
+                                    <i class="bi bi-star-fill icon-yellow"></i>
+                                    <i class="bi bi-star-fill icon-yellow"></i>
+                                    <i class="bi bi-star-half icon-yellow"></i>
+                                </div>
+                                <p class="text-two my-2">"From threat detection to data protection, Secure-Net exceeded our expectations. Their expertise has been invaluable to our business."</p>
+                                <p class="text-white fw-bold">Daniel Walker</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="d-block d-lg-flex align-items-center justify-content-between">
+                            <div class="text-center text-lg-start">
+                                <img src="img/person-3.jpg" alt="" class="rounded-circle image-margin-2">
+                            </div>
+                            <div class="text-strat ps-3 ps-lg-5 pt-5 pt-lg-3">
+                                <div>
+                                    <i class="bi bi-star-fill icon-yellow"></i>
+                                    <i class="bi bi-star-fill icon-yellow"></i>
+                                    <i class="bi bi-star-fill icon-yellow"></i>
+                                    <i class="bi bi-star-fill icon-yellow"></i>
+                                    <i class="bi bi-star icon-yellow"></i>
+                                </div>
+                                <p class="text-two my-2">"Excellent customer support and outstanding security solutions. Secure-Net gives us peace of mind every day."</p>
+                                <p class="text-white fw-bold">Emily Johnson</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Companies We Protect -->
+        <section class="logo-companies bg-one">
+            <div class="container-fluid">
+                <div class="row py-4 align-items-center justify-content-center text-white">
+                    <div class="col-12 text-center">
+                        <!-- Slider main container -->
+                        <div class="swiper partnerSwiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide"><img src="img/1.png" alt=""></div>
+                                <div class="swiper-slide"><img src="img/2.png" alt=""></div>
+                                <div class="swiper-slide"><img src="img/3.png" alt=""></div>
+                                <div class="swiper-slide"><img src="img/4.png" alt=""></div>
+                                <div class="swiper-slide"><img src="img/5.png" alt=""></div>
+                                <div class="swiper-slide"><img src="img/6.png" alt=""></div>
+                                <div class="swiper-slide"><img src="img/1.png" alt=""></div>
+                                <div class="swiper-slide"><img src="img/2.png" alt=""></div>
+                                <div class="swiper-slide"><img src="img/3.png" alt=""></div>
+                                <div class="swiper-slide"><img src="img/4.png" alt=""></div>
+                                <div class="swiper-slide"><img src="img/5.png" alt=""></div>
+                                <div class="swiper-slide"><img src="img/6.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- CONTACT -->
-        <section id="contact"></section>
+        <section id="contact" class="contact">
+            <div class="container p-5">
+                <div class="row g-5 align-items-center justify-content-center text-white">
+                    <div class="col-12">
+                        <div class="text-center pt-4">
+                            <h1 class="hr-bottom text-uppercase fs-1 fw-bold pb-3">Contact Us</h1>
+                            <p class="text-two  mx-auto mt-4 text-center">Discover why businesses trust Secure-Net to protect their networks, data, and digital infrastructure from evolving cyber threats.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control rounded-0 bg-transparent border-gray" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="YOUR NAME">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control rounded-0 bg-transparent border-gray" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="YOUR EMAIL">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control rounded-0 bg-transparent border-gray" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="SUBJECT">
+                            </div>
+                            <textarea class="form-control rounded-0 bg-transparent border-gray mb-3" rows="5" id="comment" name="text" placeholder="YOUR MESSAGE"></textarea>
+                            <button type="submit" class="btn bg-one text-white rounded-0">Submit Form</button>
+                        </form>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <ul class="list-group">
+                            <li class="list-group-item rounded-0 bg-transparent border-gray mb-3 text-white"><i class="bi bi-geo-alt-fill text-one fs-4 me-2"></i> First item</li>
+                            <li class="list-group-item rounded-0 bg-transparent border-gray mb-3 text-white"><i class="bi bi-telephone-fill text-one fs-4 me-2"></i> Second item</li>
+                            <li class="list-group-item rounded-0 bg-transparent border-gray mb-3 text-white"><i class="bi bi-envelope text-one fs-4 me-2"></i> Third item</li>
+                            <li class="list-group-item rounded-0 bg-transparent border-gray text-white"><i class="bi bi-geo-alt-fill text-one fs-4 me-2"></i> Third item</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- FOOTER -->
     <footer></footer>
