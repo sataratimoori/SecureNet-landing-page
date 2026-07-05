@@ -271,6 +271,10 @@ a {
     background-color: #000;
 }
 
+.image-footer{
+    width: 50px;
+}
+
 
 @media (max-width: 575.98px){
     .swiper{
