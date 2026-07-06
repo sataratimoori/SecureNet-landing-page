@@ -248,10 +248,15 @@ nav .nav-link:hover, nav .nav-link.active{
 
 .form-control:focus{
     background-color: #2B2B2B;
+    color: #fff;
+}
+
+.form-control{
+    color: #fff;
 }
 
 .form-control::placeholder{
-    color: #fff;
+    color: #2B2B2B;
 }
 
 .footer-link{
